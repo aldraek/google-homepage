@@ -1,27 +1,144 @@
-ul {
+ul .topmenu {
     list-style-type: none;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
     border: 0 0 0 0;
     overflow: hidden;
     background-color: white;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    height: 30px;
+    padding-left: 15px;
+    padding-top: 10px;
+
 }
 
 li {
+    list-style-type: none;
+    font-family: arial,sans-serif;
+    font-size: 13px;
     float: left;
     margin: 0;
-    padding: 0 0 0 0;
+    padding-right: 7px;
     border: 0;
+
 }
 
 .rightfloat {
   float:right;
+  padding-right: 30px;
+}
+
+li .rightfloat {
+  padding-right: 10px;
 }
 
 li a {
-    display: block;
-    color: black;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+  opacity: .75;
+}
+
+div .signinbutton {
+  background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+  border: 1px solid #4285f4;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+.signinbutton a {
+  color: #fff;
+  display: block;
+  padding: 0 12px;
+  text-decoration: none;
+  line-height: 28px;
+  font-size: 13px;
+  font-weight: bold;
+  opacity: 1.0;
+}
+
+.topdivide {
+  padding-top: 135px;
+}
+
+.logo {
+  display: block;
+  padding-bottom: 40px;
+}
+
+.searchbar {
+  opacity: .75;
+  width: 584px;
+  height: 44px;
+  border-style: solid;
+  border-width: 1px;
+  border: 1px solid rgba(0, 0, 0, .25);
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 3px 6px #999;
+}
+
+.voice {
+  padding-top: 10px;
+  padding-right: 20px;
+  float: right;
+}
+
+.voicebutton {
+  background: url(microphone.png);
+  background-size: 24px 24px;
+  background-color: white;
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  vertical-align: middle;
+}
+
+.textbar {
+  width: 500px;
+  float: left;
+  padding-top: 13px;
+  padding-left: 13px;
+}
+
+.searchbuttons {
+  padding-top: 30px;
+}
+
+.searchbuttons input{
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
     text-align: center;
-    padding: 5px 5px;
-    text-decoration: none;
+    height: 35px;
+}
+
+.bottombar {
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  min-width: 980px;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  visibility: visible;
+  font-family: arial,sans-serif;
+  padding-top: 0px;
+  margin: 0px;
+}
+
+
+.bottomfloat {
+  float: right;
 }

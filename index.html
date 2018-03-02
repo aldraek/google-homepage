@@ -6,17 +6,53 @@
   <link rel="stylesheet" href="main.css">
 </head>
 <body>
-  <ul>
-    <li class="barleft"><a href="https://www.google.com/intl/en/about/">About</a></li>
-    <li class="barleft"><a href="https://store.google.com/">Store</a></li>
+  <ul class="topmenu">
+    <li><a href="https://www.google.com/intl/en/about/">About</a></li>
+    <li><a href="https://store.google.com/">Store</a></li>
     <div class="rightfloat">
       <li><a href="https://gmail.google.com/">Gmail</a></li>
       <li><a href="https://www.google.com/imghp">Images</a></li>
-      <li><a href="https://www.google.com/intl/en/options/">Apps</a></li>
-      <li><a href="https://www.google.com/imghp">Noti</a></li>
-      <li><a href="https://myaccount.google.com/">Acc</a></li>
+      <li>
+        <div class="signinbutton">
+          <a class="signin" href="https://myaccount.google.com/">Sign in</a></li>
+        </div>
     </div>
   </ul>
+
+  <div class="topdivide"></div>
+  <center>
+    <div class="logo"><img alt="Google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></div>
+  </center>
+  <div class="searchbar">
+    <div class="textbar">
+      <input class="inputbar" maxlength="2048" name="q"
+      title="Search" type="text" value="" aria-label="Search" aria-haspopup="false"
+      role="combobox" aria-autocomplete="list" style="border: none; padding: 0px;
+      margin: 0px; height: auto; width: auto; transparent;
+      z-index: 6; left: 0px; outline: none;" dir="ltr" spellcheck="false">
+    </div>
+    <div class="voice">
+      <div class="voicebutton"></div>
+    </div>
+  </div>
+  <center>
+    <div class="searchbuttons">
+        <input value="Google Search" aria-label="Google Search" name="btnK" type="submit" jsaction="sf.chk">
+        <input value="I'm Feeling Lucky" aria-label="I'm Feeling Lucky" id="gbqfbb" name="btnI" type="submit" style="visibility: inherit;">
+    </div>
+  </center>
+
+  <div class="bottombar">
+    <ul class="bottombarlist">
+      <li><a href="https://adwords.google.com">Advertising</a></li>
+      <li><a href="https://www.google.com/services">Business</a></li>
+      <div class="bottomfloat">
+        <li><a href="https://www.google.com/intl/en_us/policies/privacy/?fg=1">Privacy</a></li>
+        <li><a href="https://www.google.com/intl/en_us/policies/terms/?fg=1">Terms</a></li>
+        <li><a href="https://www.google.com/preferences?hl=en">Settings</a></li>
+      </div>
+    </ul>
+  </div>
 
 </body>
 </html>
